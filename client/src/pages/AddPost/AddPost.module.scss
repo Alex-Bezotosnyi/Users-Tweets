@@ -1,0 +1,104 @@
+@import "../../main";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__main {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    box-shadow: 1px 1px 5px $shadow;
+    border-radius: 20px;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+
+    &_newUserInfo {
+      padding: 10px 5px;
+      border-radius: 10px;
+      background: $success;
+      color: $fontColorBtn;
+      margin-bottom: 10px;
+      text-align: center;
+      box-shadow: 1px 1px 5px $shadow;
+    }
+
+    &__input_error input {
+      border: 2px solid $error !important;
+      transition: 200ms;
+    }
+
+    &__input_success input {
+      border: 2px solid $success !important;
+      transition: 200ms;
+    }
+
+    &__field_error {
+      color: $fontColorBtn;
+      padding: 2px 10px;
+      background: $error;
+      border-radius: 5px;
+      font-size: 12px;
+      margin-top: -10px;
+    }
+
+    &__field_success {
+      color: $fontColorBtn;
+      padding: 2px 10px;
+      background: $success;
+      border-radius: 5px;
+      font-size: 12px;
+      margin-top: -10px;
+      transition: 300ms;
+    }
+
+    & input {
+      padding: 15px;
+      border-radius: 10px;
+      border: none;
+      font-family: $font;
+      box-shadow: 1px 1px 3px $shadow;
+      width: 400px;
+    }
+
+    &_button {
+      padding: 10px 0 35px 0;
+
+      & button {
+        padding: 10px 15px;
+        font-size: 16px;
+        font-weight: 500;
+        background: $btn;
+        color: $fontColorBtn;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px $shadow;
+        font-family: $font;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+      }
+
+      & button:hover {
+        transition: 500ms;
+        box-shadow: 5px 5px 10px $shadow;
+      }
+
+      & img {
+        width: 20px;
+      }
+    }
+  }
+}

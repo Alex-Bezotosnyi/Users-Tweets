@@ -1,0 +1,18 @@
+@import "./src/main";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 76px;
+}
+
+h3 {
+  background: $fontColor;
+  color: $fontColorBtn;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

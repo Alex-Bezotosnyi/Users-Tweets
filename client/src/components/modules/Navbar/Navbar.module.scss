@@ -1,0 +1,44 @@
+@import "../../../main";
+
+.wrapper {
+  height: 100px;
+  box-shadow: 1px 1px 5px #3e3e3e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding: 0 10%;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+
+    a {
+      padding: 10px;
+      text-decoration: none;
+      color: $fontColor;
+      font-weight: 500;
+    }
+
+    a:hover {
+      background: $fontColor;
+      color: $fontColorBtn;
+      padding: 10px;
+      border-radius: 5px;
+      transition: 300ms;
+    }
+  }
+
+  &_main {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 0;
+    gap: 5px;
+  }
+}

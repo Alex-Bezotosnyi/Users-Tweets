@@ -1,0 +1,55 @@
+@import "src/main";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px $shadow;
+    padding: 20px;
+    width: 250px;
+    background: $bgUserBox;
+
+    &__box {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 30px;
+
+      &_image {
+        width: 80px;
+        border-radius: 50%;
+
+        & img {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          object-fit: cover;
+          box-shadow: 1px 1px 20px $shadow;
+        }
+      }
+
+      &_info {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        &_name {
+          font-size: 18px;
+          font-weight: 500;
+        }
+        &_username {
+          font-size: 12px;
+          border-radius: 10px;
+          background: $success;
+          color: $fontColorBtn;
+          padding: 2px 5px 3px 5px;
+        }
+      }
+    }
+  }
+}
