@@ -13,7 +13,7 @@ export const Navbar = () => {
                          href='/'>Add User</NavLink>
             </ul>
             <ul className={NavbarCSS.wrapper_main}>
-                <NavLink to={"/home"} href="/home">Home</NavLink>
+                <NavLink to={"/"} href="/">Home</NavLink>
             </ul>
             <ul>
                 <NavLink to={"/posts"}
