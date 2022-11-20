@@ -1,15 +1,12 @@
-import React, {useEffect, useReducer} from 'react'
-import {useDispatch, useSelector} from "react-redux";
-import {getAllUsers} from "../../../redux/slices/usersSlice";
+import React from 'react'
 import UserItemCSS from "./UserItem.module.scss"
 
 export const UserItem = (props) => {
-    const {name, username, avatar} = props;
 
-    if (!props) {
+    if (!props.user) {
         return (
             <div>
-                Loading...
+                <h2>No Users</h2>
             </div>
         )
     }

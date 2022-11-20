@@ -1,4 +1,4 @@
-import { createSlice, createAsyncThunk, createReducer } from '@reduxjs/toolkit'
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 import axios from '../../components/apps/axios'
 
 const initialState = {
@@ -23,7 +23,6 @@ export const getAllUsers = createAsyncThunk(
     async () => {
         try {
             const {data} = await axios.get('/users')
-            console.log(data)
             return data
         } catch (error) {
             console.log(error)

@@ -28,7 +28,7 @@ export const AddPost = () => {
             setTitle("");
             setContent("");
             setImgURL("");
-            toast("New Post fro news added")
+            toast("New Post added")
             navigate('/posts')
         } catch (error) {
             console.log(error)
@@ -84,7 +84,6 @@ export const AddPost = () => {
                                 <img src={AddPostIcon}/>
                                 Add Post
                             </button>
-                            {/*<button onClick={() => dispatch(fetchUsers())}>Get user</button>*/}
                         </div>
                     </div>
                 </form>
