@@ -11,12 +11,13 @@ export const Routes = () => {
     return <RoutesApp>
         {
             <>
-            <Route path='/' element={<Home />} />
-            <Route path='users' element={<Users />} />
-            <Route path='addUser' element={<AddUser />} />
-            <Route path='posts' element={<Posts />} />
-            <Route path=':id' element={<EditPostPage />} />
-            <Route path='new' element={<AddPost />} />
+                <Route path='/' element={<Home/>}/>
+                <Route path='users' element={<Users/>}/>
+                <Route path='addUser' element={<AddUser/>}/>
+                <Route path='posts' element={<Posts/>}/>
+                <Route path=':id' element={<EditPostPage/>}/>
+                <Route path='new' element={<AddPost/>}/>
+                <Route path='*' element={<Home/>}/>
             </>
         }
     </RoutesApp>
