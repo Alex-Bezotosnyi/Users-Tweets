@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Users-Tweets/static/css/main.f3f66e9a.css",
-    "main.js": "/Users-Tweets/static/js/main.e167b265.js",
+    "main.js": "/Users-Tweets/static/js/main.dd84b63b.js",
     "index.html": "/Users-Tweets/index.html",
     "main.f3f66e9a.css.map": "/Users-Tweets/static/css/main.f3f66e9a.css.map",
-    "main.e167b265.js.map": "/Users-Tweets/static/js/main.e167b265.js.map"
+    "main.dd84b63b.js.map": "/Users-Tweets/static/js/main.dd84b63b.js.map"
   },
   "entrypoints": [
     "static/css/main.f3f66e9a.css",
-    "static/js/main.e167b265.js"
+    "static/js/main.dd84b63b.js"
   ]
 }
