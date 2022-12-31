@@ -1,6 +1,6 @@
 {
-  "homepage": "https://alex-bezotosnyi.github.io/Users-Tweets__React-Redux-Express-MongoDB/",
-  "name": "Users-Tweets__React-Redux-Express-MongoDB",
+  "homepage": "https://alex-bezotosnyi.github.io/Users-Tweets/",
+  "name": "Users-Tweets",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

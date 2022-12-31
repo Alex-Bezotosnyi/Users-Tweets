@@ -1,6 +1,6 @@
-# Users-Tweets__React-Redux-Express-MongoDB
+### Link to the project:
+https://alex-bezotosnyi.github.io/Users-Tweets__React-Redux-Express-MongoDB/
 
-## https://alex-bezotosnyi.github.io/Users-Tweets__React-Redux-Express-MongoDB/
-
-## Frontend: React, Redux Toolkit, JS, Sass Modules
-## Backend: Node.js, Express.js, MongoDB
+### The project was built using:
+- Frontend: React, Redux Toolkit, JS, Sass Modules
+- Backend: Node.js, Express.js, MongoDB
